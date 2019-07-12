@@ -1,48 +1,87 @@
-#body {
-    margin-top: 0px;
-    margin-left: 0px;
+body {
+    margin: 0px 0px 0px 0px;
+    background-color: #EAEAEA
 }
 
-.header {
-    width: 100%;
-    height: 40px;
-    background-color: grey;
-    margin-top: 0px;
-}
-
+/*margin: top right bottom left*/
 .topDiv {
-    width: 99%;
-    height: 70px;
-    background-color: lightskyblue;
-    color: black;
-    font-size: 35px;
-    font-weight: bold;
-    margin-top: 10px;
-    padding-top: 10px;
+    width: 97%;
+    height: 50px;
+    background: linear-gradient(#27408B 60%, #4682B4);
+    color: white;
+    font-size: 30px;
+    margin: 0px 0.5%;
+    padding-top: 5px;
     padding-left: 20px;
     letter-spacing: 3px;
     border-radius: 10px 10px 0px 0px;
 }
 
+.barDiv {
+    width: 97%;
+    height: 20px;
+    background: linear-gradient(whitesmoke, #BCD2EE 90%);
+    margin-left: 0.5%;
+    border-bottom: white solid 2px;
+    font-weight: bold;
+    padding-left: 2%;
+    font-size: 12px;
+    color: #191970;
+
+}
+
 .mainDiv {
-    width: 100%;
-    height: 650px;
-    background-color: transparent;
-    margin-top: 5px;
+    width: 99%;
+    height: 670px;
+    background:	#F8F8FF;
+    margin: 0 0% 0 0.5%
 
 }
 
 .leftDiv {
-    width: 20%;
+    width: 19%;
     height: 650px;
-    background-color: blue;
+    border: #EEE9E9 solid 1px;
+    background-color: white;
+    margin-top: 0.7%;
+    box-shadow: #8DB6CD 1px 1px 3px 1px;
     float: left;
+
 }
 
 .rightDiv {
     width: 79.5%;
     height: 650px;
-    background-color: yellow;
-    margin-left: 5px;
+    background-color: white;
+    border: #EEE9E9 solid 1px;
+    box-shadow: #8DB6CD 1px 1px 3px 1px;
+    margin-left: 1%;
+    margin-top: 0.7%;
     float: left;
+}
+
+.rightTopBar {
+    width: 100%;
+    height: 25px;
+    background: linear-gradient(#F5F5F5 40%, #DCDCDC);
+    border-bottom: #27408B solid 3px;
+
+}
+
+.rightFrame {
+    width: 100%;
+    height: 61px;
+    background-color: white;
+    border: #EEE9E9 solid 0px;
+    float: left;
+
+}
+
+.footer {
+    width: 99%;
+    height: 50px;
+    background: linear-gradient(#4682B4, #27408B 60%);
+    margin-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 0.5%;
 }
